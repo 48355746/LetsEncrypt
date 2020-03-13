@@ -16,6 +16,7 @@ namespace McMaster.AspNetCore.LetsEncrypt
         /// <summary>
         /// Save Let's Encrypt data to a directory.
         /// Certificates are stored in the .pfx (PKCS #12) format in a subdirectory of <paramref name="directory"/>.
+        /// Account key information is stored in the .pem format in a different subdirectory of <paramref name="directory"/>.
         /// </summary>
         /// <param name="builder"></param>
         /// <param name="directory">The root directory for storing information. Information may be stored in subdirectories.</param>
